@@ -2,6 +2,8 @@ DROP TRIGGER IF EXISTS trigger_delete_line ON osm_water_polygon;
 DROP TRIGGER IF EXISTS trigger_update_line ON osm_water_polygon;
 DROP TRIGGER IF EXISTS trigger_insert_line ON osm_water_polygon;
 
+DROP TABLE IF EXISTS osm_water_lakeline;
+
 CREATE OR REPLACE VIEW osm_water_lakeline_view AS
 SELECT wp.osm_id,
        ll.wkb_geometry AS geometry,
