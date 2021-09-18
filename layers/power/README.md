@@ -3,7 +3,7 @@
 ### Docs
 
 ### Mapping Diagram
-![Mapping diagram for transportation](mapping_diagram.png?raw=true)
+![Mapping diagram for power](mapping_diagram.png?raw=true)
 
 ### ETL diagram
-![ETL diagram for transportation](etl_diagram.png?raw=true)
+![ETL diagram for power](etl_diagram.png?raw=true)
