@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chosen_area=estonia
+chosen_area=denmark
 make clean
 make all
 make destroy-db

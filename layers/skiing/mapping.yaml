@@ -25,3 +25,20 @@ tables:
       - j-bar
       - platter
       - magic_carpet
+  # etldoc: imposm3 -> osm_skiing_polygon    
+  skiing_polygon:
+    type: polygon
+    fields:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    - key: landuse
+      name: class
+      type: string
+    - key: name
+      name: name
+      type: string
+    mapping:
+      landuse:
+      - winter_sports

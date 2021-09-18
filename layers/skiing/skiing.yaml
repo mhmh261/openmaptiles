@@ -22,6 +22,7 @@ layer:
       - j-bar
       - platter
       - magic_carpet
+      - winter_sports
   datasource:
     geometry_field: geometry
     query: (SELECT geometry, class, name FROM layer_skiing(!bbox!, z(!scale_denominator!))) AS t
